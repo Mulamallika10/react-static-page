@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function MCategories(props) {
 
-  const { title, image1, image2, image3, image4, image5, image6 } = props.gentsObj;
+  const { title, image1, image2, image3, image4, image5, image6 ,image7} = props.gentsObj;
   return (
     <div className='MensCollection'>
       <h2>Mens Collection</h2>
@@ -13,6 +13,7 @@ export default function MCategories(props) {
         <img src={image4} alt={title} />
         <img src={image5} alt={title} />
         <img src={image6} alt={title} />
+        <img src={image7} alt={title} />
         
       </div>
     </div>

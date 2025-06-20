@@ -1,5 +1,9 @@
 import React from 'react';
+import SignIn from './SignIn';
 // import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
+
 
 const Header = () => {
     return (
@@ -20,11 +24,11 @@ const Header = () => {
                 </ul>
             </div>
             <div className='search'>
-                <input type="text" placeholder='search' />
+                <input type="text" placeholder='search'/>
+                <FontAwesomeIcon icon={faSearch} className='search-icon'/>
             </div>
             <div className='right'>
-                <div className='signin'>
-                    Signin/Signout
+                <div className='signin'>Signin
                 </div>
                 <div className='cart'>
                     Cart

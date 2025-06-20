@@ -7,6 +7,8 @@ import BannerWomen from '../components/BannerWomen';
 import {Gents,Ladies} from '../data';
 import WCategories from '../components/Categories/WCategories';
 import Footer from '../components/Footer';
+// import SignIn from '../components/SignIn';
+
 
 const Mainpage=()=> {
     const [gentsFashion,setGentsFashion]=useState(Gents)
@@ -19,6 +21,7 @@ const Mainpage=()=> {
       <BannerWomen/>
       <WCategories womenObj={ladiesFashion}/>
       <Footer/>
+      
     </div>
   );
 }

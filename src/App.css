@@ -162,3 +162,10 @@ h2:hover
   color: black;
   pointer-events: none;
 }
+.mwbanner img
+{
+  border-radius: 10px;
+  width:100%;
+  height:250px;
+  
+}

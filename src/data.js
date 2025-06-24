@@ -32,3 +32,29 @@ export const Ladies = {
     price4: "1959 INR",
 
 }
+
+export const Mwatches=
+{   
+    title: "Men watches",
+    image1:"assets/mwat/mw1.jpg",
+    image2:"assets/mwat/mw2.jpg",
+    image3:"assets/mwat/mw3.jpg",
+    image4:"assets/mwat/mw4.jpg",
+    image5:"assets/mwat/mw5.jpg",
+    image6:"assets/mwat/mw6.jpg",
+    image7:"assets/mwat/mw7.png",
+    
+}
+
+export const Wwatches=
+{   
+    title: "women watches",
+    i1:"assets/ww/w1.jpg",
+    i2:"assets/ww/w2.jpg",
+    i3:"assets/ww/w3.jpg",
+    i4:"assets/ww/w4.jpg",
+    i5:"assets/ww/w5.jpg",
+    i6:"assets/ww/w6.jpg",
+    i7:"assets/ww/w7.jpg",
+    
+}

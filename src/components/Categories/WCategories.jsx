@@ -5,7 +5,7 @@ export default function WCategories(props) {
     const { title, image1, image2, image3, image4, image5, image6,image7 } = props.womenObj;
     return (
         <div className='MensCollection'>
-            <h2>Women Collection</h2>
+            <h2>Women Collections</h2>
             <div className='MenImages'>
                 <img src={image1} alt={title} />
                 <img src={image2} alt={title} />
